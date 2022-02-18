@@ -43,3 +43,13 @@ myfunction()
  console.log("My points: "+2 + 5) //My points: 25
  console.log(2+2) //4
  console.log("12"+"2") //122
+
+ // 5 challenge
+ //when the user cick the purchasse button render out
+ //"Something went wrong, please try again" in the paragraph 
+ //that has the id="error".
+ let errorEl = document.getElementById("error-el")
+function showerror(){
+    
+    errorEl.textContent="Something went wrong, Please try again"
+}
