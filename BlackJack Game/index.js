@@ -257,3 +257,82 @@ function newCard(){
 // }
 
 // console.log(Course.lesson)
+
+//Challenges crearting object and functions
+// let person ={
+//     name:"Abhi",
+//     age:24,
+//     country:"India"
+// }
+
+// function logData(){
+//     console.log( person.name+" is "+person.age+" year's old lives in "+person.country)
+// }
+
+//  logData()
+
+ //challenge 2 use if else
+//  let ages=75
+//  if(ages<6){
+//     console.log("Free")
+//  }else if(ages<18){
+//     console.log("child discount")
+//  }else if(ages<27){
+//      console.log("Student Discount")
+//  }else if(ages<67){
+//     console.log("Full Price")
+//  }else{
+//      console.log("Senior Citizen Discount")
+//  }
+
+//challenges  Loop and Arrays
+
+// let countries=["India","China","USA","Indonesia","Pakistan"]
+// console.log("Largest Countries in the World")
+// for(let i=0;i<countries.length;i++){
+//     console.log("- "+countries[i])
+// }
+
+//challeneges use  Push,Pop and shift,unshift 
+
+// let largestCountry=["Tuvalu","India","USA","Indonesia","Monaco"]
+// largestCountry.pop()
+// largestCountry.push("Pakistan")
+// largestCountry.shift()
+// largestCountry.unshift("China")
+// console.log(largestCountry)
+
+//practice Logic Operators
+
+//if it is friday 13th, log out this spooky face :
+//use the logical "AND operator" ->&&
+// let dayofMonth=13
+// let weekday="Friday"
+// if(dayofMonth === 31 && weekday==="Friday"){
+//     console.log("Spooky Face")
+// }
+
+//challenge returning random number 
+//Rock paper Scissor
+// let hands = ["rock","paper","scissor"]
+// function getResult(){
+
+//     let hand =Math.floor(Math.random()*3)
+//     return hands
+//     [hand]
+// }
+// // console.log(getResult())
+
+// let fruits=["apple","orange","apple","apple","orange"]
+// let appleShelf=document.getElementById("apple-shelf")
+// let orangeShelf=document.getElementById("orange-shelf")
+
+// function collect(){
+//     for(let i=0;i<fruits.length;i++)
+//     if(fruits[i]==="apple"){
+//         appleShelf.textContent += "apple"
+//     }else if(fruits[i]==="orange"){
+//         orangeShelf.textContent += "orange"
+//     }
+// }
+// collect()
